@@ -1,0 +1,427 @@
+/*--Body Reset --*/
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif,'poppins';
+    color: #616971;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+  ::selection {
+    color: white;
+    background: #A71D36;
+  }
+
+/*=====================TOP BAR HEADER=====================*/
+/*for only the background*/
+.top-bar{
+    background-color: #323333;
+    height: 2rem;
+    padding: .2rem 0;
+}
+/*inside the background*/
+.top-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/*=====================NAVIGATION=====================*/
+/* inside navbar image height*/
+.navbar-brand img {
+    height: 3rem;
+}
+/*nav bar letters */
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+/*nav example home spacing middle*/
+.nav-item{
+    padding: 0.4rem;
+}
+
+.nav-link{
+    color: black !important;
+    border: 2px solid transparent;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #A71D36 ;
+    color: black;
+    transition: 2s;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #A71D36 !important;
+    transition: 1s ease;
+   }
+
+/*=====================CAROUSEL=====================*/
+
+#carouselExampleFade{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+
+.carousel-inner{
+    max-height: 38rem;
+}
+/*===CHANGING CAROUSAL TRANSITION SPEED===*/
+/* to change the speed of the next and prev button*/
+
+
+
+
+/*==CAROUSAL CONTENT==*/
+/*to take the 1st image carousel top content to center*/
+
+.carousel-caption{
+
+    position: absolute;
+    top: 44%;
+    transform: translateY(-50%);
+
+    
+
+}
+
+.bg-custom{
+    background-color: rgba(0, 0, 0, .60);
+    color: white;
+    border-radius: 1rem;
+
+}
+
+
+p.lead{
+    font-family: 'poppins' sans-serif;
+    font-weight: 500;
+}
+
+/*=====================3 logos=====================*/
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+
+.display-5{
+    font-family: 'poppins';
+    font-size: 35px;
+    font-weight: 500;
+}
+
+p.muted{
+    font-family: 'poppins';
+    color: black;
+    font-size: 17px;
+    line-height:2rem !important;
+}
+
+
+
+/*=====================FIXED BACKGROUND IMG=====================*/
+.fixed{
+    background-image: url("../css/matrix.png");
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.fixed-background{
+    padding: 5rem 0 ;
+}
+h5.gotha{
+    color: #414042;
+}
+p.shutup{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414042;
+    font-size: 13px;
+}
+.my-1 a h4{
+    color: #414042;
+    text-decoration: none;
+}
+.my-1 a{
+    text-decoration: none!important;
+}
+.my-1 a h4:hover{
+    color: #A71D36 !important;
+    transition: 1s ease;
+    text-decoration: none;
+}
+/*==EMOJI NAV BAR==*/
+
+/*==image hover==*/
+.cardy img:hover{
+    transform: scale(1.1);
+    transition: ease 1s;
+
+}
+.cardy img{
+    border: none;
+    transition: ease 1s;
+}
+
+
+/*=====================FOOTER=====================*/
+
+footer{
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+
+footer img{
+    margin: 1.5rem auto;
+}
+
+/*to change the color of social icons*/
+footer p, footer a, 
+.socket a{
+    text-decoration: none;
+    color: #fff;
+}
+/*to make social icons inline  ----*/
+
+ul.social{
+    list-style: none;
+    display: flex;
+    max-width: 20rem;
+    margin: 0 auto;
+    padding: 0;
+}
+ul.social li{
+   margin:0 auto; 
+}
+
+/*to make social icons font big*/
+footer .fa {
+    font-size: 2rem;
+    text-align: center;
+}
+footer .fa:hover{
+color: #68a0d2;
+
+}
+
+/*=====================SOCKET=====================*/
+.socket {
+    background-color: #222222;
+    border-top: .1rem solid #4981b3 ;
+}
+/*=====================Our Tea Region=====================*/
+
+.maja{
+    font-family: 'Times New Roman', Times, serif;
+    color: #004631;
+}
+.region-head{
+    color: #004631;
+    font-family: 'Times New Roman', Times, serif;
+}
+.region-underline{
+    width: 350px;
+    margin-top: 10px;
+    border: solid 2px #004631;
+}
+
+.Dimbula-img{
+    width: 60%;
+}
+
+
+.button-head{
+    font-family: 'Times New Roman', Times, serif;
+    color: #004631;
+    font-weight: 700;
+    text-transform:inherit
+}
+
+
+
+
+/*Animation for typing tex*/
+
+/*End Animation for typing tex*/
+
+
+
+
+
+
+
+
+
+/*=====================MEDIA QUERIES=====================*/
+
+/*Device under 1199px (xl)*/
+@media (max-width: 1199.98px){
+
+}
+/*Device under 992 (lg)*/
+@media (max-width: 991.98px){
+
+}
+
+
+/*======================= BOOTSRAP BREAKPOINTS:
+
+Extra small (xs) devicess (Portrait phone, 576px and up)
+No media queries since this is the default bootstrap
+
+small (sm) devices (landscape phones, 576px and up)
+@media (min-width:576px)  { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width:768px)  { ... }
+
+large (lg) devices (desktops, 992px and up)
+@media (min-width:992px)  { ... }
+
+Extra Large (xl) devices (Large desktops,1200px and up)
+@media (min-width:1200px) { ... }
+
+==============================*/
+
+/* Bootsrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/* Fixed Background Image --*/
+.fixed-background{
+    position: relative;
+    width: 100%;
+    z-index: 1000 !important;
+}
+.fixed-wrap{
+    clip:rect(0,auto, auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+.fixed{
+    z-index: -999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/* Explorer Page Css styles --*/
+
+.crow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+
+}
+
+.g-coloumn{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+
+}
+.g-coloumn img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: ease .5s;
+}
+.g-coloumn img:hover{
+    box-shadow:4px 4px 5px rgba(0, 0, 0, .7) ;
+}
+
+@media screen and (max-width:720px){
+    .g-coloumn{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .g-coloumn{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/* End Explorer Page Css styles --*/
+
+/* Index page heading to small try first heading*/
+
+@media screen and (max-width:720px){
+    .small-h{
+        font-size: 30px;
+    }
+}
+/* Index page heading to small try private label*/
+
+
+
+@media screen and (max-width:720px){
+    .small-h{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+/* explore page scenario-head*/
+.scenario-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+.scenario p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    
+}
+
+@media screen and (max-width:720px){
+    .scenario p{
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+/*Image Hover in Index section 3card*/
+
+.card img{
+    border: none;
+    transition: ease 1s;
+}
+
+/* Making image hover wow */
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5
+    );
+    transition: ease 1s;
+}
